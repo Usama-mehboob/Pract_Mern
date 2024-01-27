@@ -1,4 +1,12 @@
-
+function evenOdd2(num1, num2){
+    for(i =num1; i <= num2; i++){
+        if (i % 2 == 0){
+            console.log( i + "is even");
+        }else if (i % 2 == 1){
+            console.log(i  + "is odd")
+        }
+    }
+};
 
 function evenOdd(num1, num2){
     for(i =num1; i <= num2; i++){
