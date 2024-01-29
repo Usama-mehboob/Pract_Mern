@@ -62,8 +62,29 @@
 const arr = ["abc", 1 , "hell", 3]
 const arr1 = ["bcd", 3, "def", arr]
 
-for( let i = 0; i < arr1.length; i++){
-  console.log(arr1);
-}
+// for( let i = 0; i < arr1.length; i++){
+//   if (typeof arr1[i] == "object"){
+//     for (let j = 0; j < arr1[i].length; j++ ){
+//       // console.log(arr1[i][j]);
+//     }
+//   }
+//   // console.log(arr1[i]);
+// }
 
-// // console.log()
+//++++++++++++++++++++++++++++++++++Methods+++++++++++++++++++++++++++++++++++++
+
+// arr.push("hello");
+// console.log(arr1);
+
+// this methods is use for adding in list 
+
+// arr.pop();
+// console.log(arr)
+
+// this is use for removing 
+
+// arr.shift()
+// console.log(arr)
+
+arr.unshift("hello")
+console.log(arr)
