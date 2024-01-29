@@ -1,45 +1,24 @@
-function evenOdd1(num1, num2){
-    for(i =num1; i <= num2; i++){
-        if (i % 2 == 0){
-            console.log( i + "is even");
-        }else if (i % 2 == 1){
-            console.log(i  + "is odd")
-        }
-    }
+f3 = (updateVlue1) => {
+    updateVlue1(6, 7);
+}
+
+
+const f1 = ()  =>{
+  var a = 2;
+  var b = 3;
+
+ 
 };
 
-function evenOdd(num1, num2){
-    for(i =num1; i <= num2; i++){
-        if (i % 2 == 0){
-            console.log( i + "is even");
-        }else if (i % 2 == 1){
-            console.log(i  + "is odd")
-        }
-    }
-};
+const updateVlue = (NewA, NewB) =>{
+    a = NewA;
+    b = NewB;
+}
 
-evenOdd(2, 3);
+f3(updateVlue);
+console.log(a, b)
 
-const evenOdd2 = function (num1, num2){
-    for(i =num1; i <= num2; i++){
-        if (i % 2 == 0){
-            console.log( i + "is even");
-        }else if (i % 2 == 1){
-            console.log(i  + "is odd")
-        }
-    }
-};
 
-evenOdd2(4, 5);
 
-const evenOdd3 = (num1, num2) =>{
-    for(i =num1; i <= num2; i++){
-        if (i % 2 == 0){
-            console.log( i + "is even");
-        }else if (i % 2 == 1){
-            console.log(i  + "is odd")
-        }
-    }
-};
-
-evenOdd3(6, 7);
+ 
+// f1(updateVlue)
