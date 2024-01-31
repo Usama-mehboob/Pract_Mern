@@ -59,8 +59,8 @@
 
 
 
-const arr = ["abc", 1 , "hell", 3]
-const arr1 = ["bcd", 3, "def", arr]
+// const arr = ["abc", 1 , "hell", 3]
+// const arr1 = ["bcd", 3, "def", arr]
 
 // for( let i = 0; i < arr1.length; i++){
 //   if (typeof arr1[i] == "object"){
@@ -86,5 +86,52 @@ const arr1 = ["bcd", 3, "def", arr]
 // arr.shift()
 // console.log(arr)
 
-arr.unshift("hello")
-console.log(arr)
+// arr.unshift("hello")
+// console.log(arr)
+
+
+// ++++++++++++++++++++++++++++++++++++++  Spread/ Rest +++++++++++++
+
+
+// const myArray = [1, 2, "hello", 5]
+
+// function arraySort(a, ...b){
+//     console.log(a, b)
+// }
+
+// arraySort(...myArray)
+// const myArray = [1, 2, "hello", 5]
+
+// function arraySort(a, ...b){
+//     console.log(a, b)
+// }
+
+// arraySort(...myArray)
+
+// const myArray = [1, 2, "hello", 5]
+
+// function arraySort([a, b, ...c]){
+//     console.log(a, b, c)
+// }
+
+// arraySort(myArray)
+
+
+// const person = {
+//     name : "usama",
+//     age : 22,
+//     course: "mern",
+//     duration: 6
+// }
+// // const {name, age, ...rest} = person;
+
+// function objectPerson({name, course, ...Rest}){
+//     console.log(name, course, Rest)
+// }
+
+// objectPerson(person);
+
+
+const Array = [ 1, 2, 3, 4, 5];
+
+a = Array[0];
